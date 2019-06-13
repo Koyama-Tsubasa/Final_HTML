@@ -1,0 +1,85 @@
+aside {
+    margin-top: 15px;
+    float: right;
+    background-color:skyblue;
+    width:25%;
+    border: 10px solid transparent;
+    -webkit-border-image: url(finalPro-pic/border.png) 30 round; /* Chrome, Safari, Opera */
+    -o-border-image: url(finalPro-pic/border.png) 30 round; /* Firefox */
+    border-image: url(finalPro-pic/border.png) 30 round;
+}
+article {
+    width:75%;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.head {
+    background-color:rgba(0,255,255,0.6);
+    padding:10px;
+    text-align:center;
+    width:70%;
+    margin-left: 15%;
+}
+
+.border1 {
+    border-style: solid;
+    border-color: springgreen;
+    border-width: thick;
+    border-radius: 25px;
+}
+
+.border2 {
+   border-style: solid;
+   border-width: thick;
+   border-radius: 15px; 
+   border-color: white;
+   margin-right: 10px;
+}
+
+.FloatL{
+    float: left;
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.FloatR{
+    float: right;
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+box>a{
+    height: 50px;
+    background-color: bisque;
+    margin: 5px;
+    float: left;
+    width: 100%;
+    box-shadow: 2px 2px 5px black;
+}
+
+.work{
+    background-color: aqua;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    height:27px;
+}
+
+.col-40 {width:40%}
+.col-60 {width:60%}
+
+@media only screen and (max-width: 550px){
+    .col-40{width: 100%};
+    .col-60{width: 100%};
+}
