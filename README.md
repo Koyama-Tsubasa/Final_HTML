@@ -1,3 +1,3 @@
 # HTML
 
-There are some html examples in this repostry.
+There are some html examples in this repository.
